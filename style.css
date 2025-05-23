@@ -33,13 +33,11 @@ hr{
 
   .items{
     display: flex;
-    flex-direction: row;
-    justify-content: start;   
+    justify-content: space-between;   
+    alig-items: baseline;
+    margin: 0;
   }
-  .items p{
-    font: size 700px;
-    margin-right: 20rem;
-  }
+  
   .items span{
     color: hsl(332, 51%, 32%);
     font-weight: 700;
